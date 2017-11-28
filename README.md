@@ -10,10 +10,10 @@ quick and dirty testing while I'm figuring out storage class issues with the hel
 1. create services from services yaml
 2. create zookeepers with istio sidecars
 ```console
-kubectl  -n kafka apply -f <(istioctl kube-inject -f  ./zookeeper-cluster.yaml)
+kubectl  apply -f <(istioctl kube-inject -f  ./zookeeper-cluster.yaml)
 ```
 3. create brokers with istio sidecars
 ```console
-kubectl  -n kafka apply -f <(istioctl kube-inject -f  ./kafka-controller1.yaml)
+kubectl  apply -f <(istioctl kube-inject -f  ./kafka-controller1.yaml)
 ```
 ... for each broker
