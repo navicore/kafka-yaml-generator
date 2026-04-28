@@ -1,3 +1,8 @@
+<!-- ghmig:moved -->
+> **This repository has moved to [https://git.navicore.tech/navicore/kafka-yaml-generator](https://git.navicore.tech/navicore/kafka-yaml-generator).**
+>
+> The GitHub copy is archived and no longer maintained.
+
 # kafka-yaml-generator
 
 kafka yaml generator for test instances (do not use in prod)
